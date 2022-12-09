@@ -18,7 +18,7 @@
 form{
     max-width: 550px;
     width: 90%;
-    background: blue;
+    background: black;
     margin: 17vh auto 0 auto;
     padding: 40px;
     border-radius: 3px;
@@ -36,7 +36,7 @@ form{
     outline: none;
     resize: none;
     border: none;
-    color: white;
+    color: black;
     border-bottom: 1px solid #D3D3D3;
   }
   input[type="text"]:focus, textarea:focus{
@@ -168,7 +168,7 @@ form{
     html{
         box-sizing: border-box;
         font-size: 16pt;
-        color: green;
+        color: red;
     }
     
     body{
@@ -178,7 +178,7 @@ form{
         font-size: 100%;
         font: inherit;
         -ms-overflow-style: scrollbar;
-        background-color: #1e252d;
+        background-color: #B76E79;
         font-weight: 300;
         font-size: 1rem;
         line-height: 2.375;

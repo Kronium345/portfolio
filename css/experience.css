@@ -16,7 +16,7 @@
 html{
     box-sizing: border-box;
     font-size: 16pt;
-    color: green;
+    color: red;
 }
 
 body{
@@ -26,7 +26,7 @@ body{
 	font-size: 100%;
 	font: inherit;
     -ms-overflow-style: scrollbar;
-    background-color: #1e252d;
+    background-color: #B76E79;
     font-weight: 300;
     font-size: 1rem;
     line-height: 2.375;
