@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+  <h1 class="fade-in">Contact Form</h1>
+    <header>        
+        <!-- Navbar -->
+        <nav class="navBar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="experience.html">My Experience</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="skills.html">My Skills</a></li>
+            </ul>
+        </nav>
+    </header>				
+
+    <h3>If you would like to contact me about any particular issue, no worries! Just fill in your details below!</h3>
+    
+    <div id="overlay">
+        <form onsubmit="event.preventDefault(); validateForm()">
+          <h4>Contact Me</h4>
+    
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Your name">
+          <small class="error"></small>
+    
+          <label for="email">Email:</label>
+          <input type="text" id="email" placeholder="Your email">
+          <small class="error"></small>
+    
+          <label for="message">Message:</label>
+          <textarea id="message" placeholder="Your message" rows="6"></textarea>
+          <small class="error"></small>
+    
+          <div class="center">
+            <input type="submit" value="Send Message">
+            <p id="success"></p>
+          </div>
+        </form>
+    </div>
+    <br>
+    <br>
+    <h3>My Details</h3>
+    <!-- Footer -->
+		<footer id="footer">
+			<section class="split contact">
+				<section class="alt">
+					<h3>Address</h3>
+					<p>69 Somewhere Road<br />
+					    Manchester, UK</p>
+				</section>
+				<section>
+					<h3>Phone</h3>
+					<p><a href="#">(+44) 123-456-7890</a></p>
+				</section>
+				<section>
+					<h3>Email</h3>
+					<p><a href="#">exampleemail@gmail.com</a></p>
+				</section>
+			</section>
+		</footer>
+
+    <!-- Copyright -->
+		<div id="copyright">
+			<ul><li>&copy; Daniel Awolowo</li></ul> 
+		</div>
+<script src="js/contact.js"></script>
+</body>
+</html>
