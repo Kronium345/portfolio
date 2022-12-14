@@ -19,7 +19,7 @@ body{
 
 /* Fade-In CSS */
 .fade-in{
-    animation: fadeIn 3s;
+    animation: fadeIn 4s;
 }
 
 @keyframes fadeIn {
